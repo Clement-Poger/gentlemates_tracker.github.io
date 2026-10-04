@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f6f5fc">
+    <meta name="description" content="Track Gentle Mates esports teams with data linked to its sources.">
+    <title>GM Stats — Gentle Mates</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" id="sidebar" aria-label="Main navigation" aria-hidden="false">
+        <a class="brand" href="#" data-page="overview" aria-label="GM Stats home">
+          <span class="brand-mark">GM</span>
+          <span class="brand-copy"><strong>GENTLE MATES</strong><small>PERFORMANCE HUB</small></span>
+        </a>
+
+        <div class="sidebar-label">WORKSPACE</div>
+        <nav class="primary-nav">
+          <button class="nav-item active" data-page="overview"><span class="nav-icon">◫</span>Overview</button>
+          <button class="nav-item" data-page="roster"><span class="nav-icon">♙</span>Roster</button>
+          <button class="nav-item" data-page="matches"><span class="nav-icon">⌁</span>Matches</button>
+          <button class="nav-item" data-page="players"><span class="nav-icon">♧</span>Players</button>
+        </nav>
+
+        <div class="sidebar-label games-label">GAMES <span class="live-dot"></span></div>
+        <nav class="game-nav" aria-label="Select a game">
+          <button class="game-item selected" data-game="valorant"><span class="game-symbol valorant">V</span>VALORANT<span class="game-chevron">›</span></button>
+          <button class="game-item" data-game="rocket-league"><span class="game-symbol rocket">R</span>ROCKET LEAGUE<span class="game-chevron">›</span></button>
+          <button class="game-item" data-game="call-of-duty"><span class="game-symbol cod">C</span>CALL OF DUTY<span class="game-chevron">›</span></button>
+        </nav>
+
+        <div class="sidebar-bottom">
+          <button class="nav-item" data-page="links"><span class="nav-icon">↗</span>Useful links</button>
+          <div class="source-note"><span class="source-indicator"></span><span>DATA SOURCE<br><strong>LIQUIPEDIA API</strong></span><span class="info-mark" title="Community-maintained source; not official team or publisher data.">i</span></div>
+          <div class="profile"><span class="profile-avatar">GM</span><span><strong>Guest analyst</strong><small>Local preview</small></span><span class="profile-dots">···</span></div>
+        </div>
+      </aside>
+
+      <main class="main-area">
+        <header class="topbar">
+          <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="sidebar">
+            <span></span><span></span><span></span>
+          </button>
+          <div class="breadcrumbs"><span>GAMES</span><span class="crumb-slash">/</span><strong id="breadcrumb-game">VALORANT</strong></div>
+          <div class="topbar-actions">
+            <label class="search-box">
+              <span class="search-icon">⌕</span>
+              <input id="global-search" type="search" placeholder="Search players, matches..." aria-label="Search players and matches">
+              <kbd>/</kbd>
+            </label>
+            <button class="icon-button" id="help-button" aria-label="About data sources" title="About data sources">?</button>
+            <span class="topbar-avatar">GM</span>
+          </div>
+        </header>
+
+        <div class="content-wrap">
+          <div class="demo-banner" id="source-banner"><span class="banner-dot"></span><span><strong>DATA PROVENANCE</strong> &nbsp; Liquipedia is community-maintained. Check each source before treating data as official.</span><button id="dismiss-banner" aria-label="Dismiss data provenance notice">×</button></div>
+          <section id="page-content" aria-live="polite"></section>
+          <footer class="footer"><span>GM STATS <span class="footer-separator">/</span> FAN-MADE CONCEPT</span><span>Independent project · Not affiliated with Gentle Mates</span></footer>
+        </div>
+      </main>
+    </div>
+    <button class="sidebar-scrim" id="sidebar-scrim" type="button" aria-label="Close navigation menu" tabindex="-1"></button>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>

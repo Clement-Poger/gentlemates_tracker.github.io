@@ -1,0 +1,456 @@
+{
+  "source": "https://www.gentlemates.com",
+  "extractedBy": "PocketUI (pocketui.app)",
+  "colors": [
+    {
+      "hex": "#88000c",
+      "rgb": "rgb(136, 0, 12)",
+      "hsl": "hsl(355, 100%, 27%)",
+      "category": "primary"
+    },
+    {
+      "hex": "#f77514",
+      "rgb": "rgb(247, 117, 20)",
+      "hsl": "hsl(26, 93%, 52%)",
+      "category": "primary"
+    },
+    {
+      "hex": "#2d2d2d",
+      "rgb": "rgb(45, 45, 45)",
+      "hsl": "hsl(0, 0%, 18%)",
+      "category": "neutral"
+    },
+    {
+      "hex": "#ececec",
+      "rgb": "rgb(236, 236, 236)",
+      "hsl": "hsl(0, 0%, 93%)",
+      "category": "neutral"
+    },
+    {
+      "hex": "#423b42",
+      "rgb": "rgb(66, 59, 66)",
+      "hsl": "hsl(300, 6%, 25%)",
+      "category": "neutral"
+    },
+    {
+      "hex": "#ec81f2",
+      "rgb": "rgb(236, 129, 242)",
+      "hsl": "hsl(297, 81%, 73%)",
+      "category": "primary"
+    },
+    {
+      "hex": "#b38902",
+      "rgb": "rgb(179, 137, 2)",
+      "hsl": "hsl(46, 98%, 35%)",
+      "category": "primary"
+    },
+    {
+      "hex": "#e9263d",
+      "rgb": "rgb(233, 38, 61)",
+      "hsl": "hsl(353, 82%, 53%)",
+      "category": "primary"
+    },
+    {
+      "hex": "#953d00",
+      "rgb": "rgb(149, 61, 0)",
+      "hsl": "hsl(25, 100%, 29%)",
+      "category": "primary"
+    },
+    {
+      "hex": "#7b3306",
+      "rgb": "rgb(123, 51, 6)",
+      "hsl": "hsl(23, 91%, 25%)",
+      "category": "primary"
+    },
+    {
+      "hex": "#cd7f32",
+      "rgb": "rgb(205, 127, 50)",
+      "hsl": "hsl(30, 61%, 50%)",
+      "category": "primary"
+    },
+    {
+      "hex": "#d4af37",
+      "rgb": "rgb(212, 175, 55)",
+      "hsl": "hsl(46, 65%, 52%)",
+      "category": "primary"
+    },
+    {
+      "hex": "#4a5565",
+      "rgb": "rgb(74, 85, 101)",
+      "hsl": "hsl(216, 15%, 34%)",
+      "category": "accent"
+    },
+    {
+      "hex": "#364153",
+      "rgb": "rgb(54, 65, 83)",
+      "hsl": "hsl(217, 21%, 27%)",
+      "category": "accent"
+    },
+    {
+      "hex": "#ff8a95",
+      "rgb": "rgb(255, 138, 149)",
+      "hsl": "hsl(354, 100%, 77%)",
+      "category": "primary"
+    },
+    {
+      "hex": "#383838",
+      "rgb": "rgb(56, 56, 56)",
+      "hsl": "hsl(0, 0%, 22%)",
+      "category": "neutral"
+    },
+    {
+      "hex": "#efb8fa",
+      "rgb": "rgb(239, 184, 250)",
+      "hsl": "hsl(290, 87%, 85%)",
+      "category": "primary"
+    },
+    {
+      "hex": "#b75000",
+      "rgb": "rgb(183, 80, 0)",
+      "hsl": "hsl(26, 100%, 36%)",
+      "category": "primary"
+    },
+    {
+      "hex": "#3a2a14",
+      "rgb": "rgb(58, 42, 20)",
+      "hsl": "hsl(35, 49%, 15%)",
+      "category": "accent"
+    },
+    {
+      "hex": "#6a7282",
+      "rgb": "rgb(106, 114, 130)",
+      "hsl": "hsl(220, 10%, 46%)",
+      "category": "neutral"
+    },
+    {
+      "hex": "#1e2939",
+      "rgb": "rgb(30, 41, 57)",
+      "hsl": "hsl(216, 31%, 17%)",
+      "category": "accent"
+    },
+    {
+      "hex": "#3a1a1f",
+      "rgb": "rgb(58, 26, 31)",
+      "hsl": "hsl(351, 38%, 16%)",
+      "category": "accent"
+    },
+    {
+      "hex": "#6b6b6b",
+      "rgb": "rgb(107, 107, 107)",
+      "hsl": "hsl(0, 0%, 42%)",
+      "category": "neutral"
+    },
+    {
+      "hex": "#232323",
+      "rgb": "rgb(35, 35, 35)",
+      "hsl": "hsl(0, 0%, 14%)",
+      "category": "neutral"
+    },
+    {
+      "hex": "#2c2c2d",
+      "rgb": "rgb(44, 44, 45)",
+      "hsl": "hsl(240, 1%, 17%)",
+      "category": "neutral"
+    },
+    {
+      "hex": "#4a4a4a",
+      "rgb": "rgb(74, 74, 74)",
+      "hsl": "hsl(0, 0%, 29%)",
+      "category": "neutral"
+    },
+    {
+      "hex": "#8e8e8e",
+      "rgb": "rgb(142, 142, 142)",
+      "hsl": "hsl(0, 0%, 56%)",
+      "category": "neutral"
+    },
+    {
+      "hex": "#d6d2d3",
+      "rgb": "rgb(214, 210, 211)",
+      "hsl": "hsl(345, 5%, 83%)",
+      "category": "neutral"
+    },
+    {
+      "hex": "#ebd4dc",
+      "rgb": "rgb(235, 212, 220)",
+      "hsl": "hsl(339, 37%, 88%)",
+      "category": "accent"
+    },
+    {
+      "hex": "#fffbeb",
+      "rgb": "rgb(255, 251, 235)",
+      "hsl": "hsl(48, 100%, 96%)",
+      "category": "primary"
+    },
+    {
+      "hex": "#fee685",
+      "rgb": "rgb(254, 230, 133)",
+      "hsl": "hsl(48, 98%, 76%)",
+      "category": "primary"
+    },
+    {
+      "hex": "#ffd236",
+      "rgb": "rgb(255, 210, 54)",
+      "hsl": "hsl(47, 100%, 61%)",
+      "category": "primary"
+    },
+    {
+      "hex": "#f99c00",
+      "rgb": "rgb(249, 156, 0)",
+      "hsl": "hsl(38, 100%, 49%)",
+      "category": "primary"
+    },
+    {
+      "hex": "#dd7400",
+      "rgb": "rgb(221, 116, 0)",
+      "hsl": "hsl(31, 100%, 43%)",
+      "category": "primary"
+    },
+    {
+      "hex": "#ffc400",
+      "rgb": "rgb(255, 196, 0)",
+      "hsl": "hsl(46, 100%, 50%)",
+      "category": "primary"
+    },
+    {
+      "hex": "#ffb870",
+      "rgb": "rgb(255, 184, 112)",
+      "hsl": "hsl(30, 100%, 72%)",
+      "category": "primary"
+    },
+    {
+      "hex": "#eff6ff",
+      "rgb": "rgb(239, 246, 255)",
+      "hsl": "hsl(214, 100%, 97%)",
+      "category": "primary"
+    },
+    {
+      "hex": "#bedbff",
+      "rgb": "rgb(190, 219, 255)",
+      "hsl": "hsl(213, 100%, 87%)",
+      "category": "primary"
+    },
+    {
+      "hex": "#3080ff",
+      "rgb": "rgb(48, 128, 255)",
+      "hsl": "hsl(217, 100%, 59%)",
+      "category": "primary"
+    },
+    {
+      "hex": "#193cb8",
+      "rgb": "rgb(25, 60, 184)",
+      "hsl": "hsl(227, 76%, 41%)",
+      "category": "primary"
+    },
+    {
+      "hex": "#62748e",
+      "rgb": "rgb(98, 116, 142)",
+      "hsl": "hsl(215, 18%, 47%)",
+      "category": "accent"
+    },
+    {
+      "hex": "#0f172b",
+      "rgb": "rgb(15, 23, 43)",
+      "hsl": "hsl(223, 48%, 11%)",
+      "category": "accent"
+    },
+    {
+      "hex": "#f9fafb",
+      "rgb": "rgb(249, 250, 251)",
+      "hsl": "hsl(210, 20%, 98%)",
+      "category": "neutral"
+    },
+    {
+      "hex": "#f3f4f6",
+      "rgb": "rgb(243, 244, 246)",
+      "hsl": "hsl(220, 14%, 96%)",
+      "category": "neutral"
+    },
+    {
+      "hex": "#e5e7eb",
+      "rgb": "rgb(229, 231, 235)",
+      "hsl": "hsl(220, 13%, 91%)",
+      "category": "neutral"
+    },
+    {
+      "hex": "#d1d5dc",
+      "rgb": "rgb(209, 213, 220)",
+      "hsl": "hsl(218, 14%, 84%)",
+      "category": "accent"
+    },
+    {
+      "hex": "#99a1af",
+      "rgb": "rgb(153, 161, 175)",
+      "hsl": "hsl(218, 12%, 64%)",
+      "category": "accent"
+    },
+    {
+      "hex": "#101828",
+      "rgb": "rgb(16, 24, 40)",
+      "hsl": "hsl(220, 43%, 11%)",
+      "category": "accent"
+    },
+    {
+      "hex": "#fef2f2",
+      "rgb": "rgb(254, 242, 242)",
+      "hsl": "hsl(0, 86%, 97%)",
+      "category": "primary"
+    },
+    {
+      "hex": "#ffcaca",
+      "rgb": "rgb(255, 202, 202)",
+      "hsl": "hsl(0, 100%, 90%)",
+      "category": "primary"
+    },
+    {
+      "hex": "#ff6568",
+      "rgb": "rgb(255, 101, 104)",
+      "hsl": "hsl(359, 100%, 70%)",
+      "category": "primary"
+    },
+    {
+      "hex": "#fb2c36",
+      "rgb": "rgb(251, 44, 54)",
+      "hsl": "hsl(357, 96%, 58%)",
+      "category": "primary"
+    },
+    {
+      "hex": "#e40014",
+      "rgb": "rgb(228, 0, 20)",
+      "hsl": "hsl(355, 100%, 45%)",
+      "category": "primary"
+    },
+    {
+      "hex": "#9f0712",
+      "rgb": "rgb(159, 7, 18)",
+      "hsl": "hsl(356, 92%, 33%)",
+      "category": "primary"
+    },
+    {
+      "hex": "#e39da7",
+      "rgb": "rgb(227, 157, 167)",
+      "hsl": "hsl(351, 56%, 75%)",
+      "category": "primary"
+    },
+    {
+      "hex": "#f4f4f3",
+      "rgb": "rgb(244, 244, 243)",
+      "hsl": "hsl(60, 4%, 95%)",
+      "category": "neutral"
+    },
+    {
+      "hex": "#ececeb",
+      "rgb": "rgb(236, 236, 235)",
+      "hsl": "hsl(60, 3%, 92%)",
+      "category": "neutral"
+    },
+    {
+      "hex": "#e1e1e0",
+      "rgb": "rgb(225, 225, 224)",
+      "hsl": "hsl(60, 2%, 88%)",
+      "category": "neutral"
+    },
+    {
+      "hex": "#cfcfcf",
+      "rgb": "rgb(207, 207, 207)",
+      "hsl": "hsl(0, 0%, 81%)",
+      "category": "neutral"
+    },
+    {
+      "hex": "#a39ba3",
+      "rgb": "rgb(163, 155, 163)",
+      "hsl": "hsl(300, 4%, 62%)",
+      "category": "neutral"
+    }
+  ],
+  "fonts": [
+    {
+      "family": "Helvetica Neue Extra Black Condensed",
+      "weights": [],
+      "source": "custom"
+    },
+    {
+      "family": "DINNextW01-Regular",
+      "weights": [],
+      "source": "custom"
+    },
+    {
+      "family": "Helvetica Bold Condensed Oblique",
+      "weights": [],
+      "source": "custom"
+    },
+    {
+      "family": "Helvetica Extra",
+      "weights": [],
+      "source": "custom"
+    },
+    {
+      "family": "Helvetica Neue Bold",
+      "weights": [],
+      "source": "custom"
+    },
+    {
+      "family": "Helvetica Neue Medium Condensed",
+      "weights": [],
+      "source": "custom"
+    },
+    {
+      "family": "Helvetica Neue",
+      "weights": [],
+      "source": "custom"
+    },
+    {
+      "family": "Helvetica Neue Black Extended",
+      "weights": [],
+      "source": "custom"
+    },
+    {
+      "family": "Helvetica Neue Black Italic",
+      "weights": [],
+      "source": "custom"
+    },
+    {
+      "family": "Tusker Grotesk",
+      "weights": [],
+      "source": "custom"
+    },
+    {
+      "family": "FF Good Pro Wide",
+      "weights": [],
+      "source": "custom"
+    },
+    {
+      "family": "Geogia Pro",
+      "weights": [],
+      "source": "custom"
+    },
+    {
+      "family": "Minion Pro",
+      "weights": [],
+      "source": "custom"
+    },
+    {
+      "family": "Sabon LT",
+      "weights": [],
+      "source": "custom"
+    },
+    {
+      "family": "ITC Garamond",
+      "weights": [],
+      "source": "custom"
+    },
+    {
+      "family": "Clarendon Extended",
+      "weights": [],
+      "source": "custom"
+    },
+    {
+      "family": "Europa Gro Extended",
+      "weights": [],
+      "source": "custom"
+    }
+  ],
+  "spacing": [],
+  "borderRadii": [],
+  "shadows": []
+}
